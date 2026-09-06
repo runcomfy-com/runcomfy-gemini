@@ -1,8 +1,8 @@
 # RunComfy for Gemini CLI
 
-Run ComfyUI workflows on GPU, explore AI image models and AI video models, and manage LoRA training from Gemini CLI.
+Use RunComfy as an **AI image generator** and **AI video generator** from Gemini CLI. Run [ComfyUI workflows](https://www.runcomfy.com/comfyui-workflows) on GPU and manage [LoRA training](https://www.runcomfy.com/trainer/ai-toolkit).
 
-Use RunComfy as an **AI image generator** and **AI video generator** in Gemini CLI. Discover Seedance 2.5, Wan 3 and Wan 2 variants, FLUX, LTX and Seedream through [RunComfy's model pages](https://www.runcomfy.com/models), then inspect the current variant, price and input schema before generation.
+Explore [AI image models](https://www.runcomfy.com/models) including FLUX 2 and Seedream 5.0, and [AI video models](https://www.runcomfy.com/models) including Seedance 2.5, Wan 3.0, Wan 2.2 and LTX 2.5. Inspect the current variant, price and input schema before generation.
 
 This extension connects Gemini CLI to the hosted [RunComfy MCP service](https://docs.runcomfy.com/mcp/introduction). It includes three focused skills for ComfyUI workflow execution, AI image and video generation, and LoRA training. Availability and supported parameters are discovered from RunComfy when needed.
 
@@ -38,8 +38,8 @@ You need a RunComfy account. Paid workflow, model and training operations requir
 | --- | --- |
 | Inspect ComfyUI workflows | “Show the inputs and GPU settings for my RunComfy image workflow. Do not run it yet.” |
 | Run a workflow | “Prepare one image with my ComfyUI deployment. Show the input overrides and estimated cost before starting.” |
-| Compare AI video models | “Compare available Seedance 2.5, Wan 3, Wan 2 and LTX image-to-video options on RunComfy for a five-second clip. Show current prices; do not generate yet.” |
-| Generate or edit images | “Compare FLUX and Seedream AI image models for a product photo, inspect the selected schema, and prepare one image within my budget.” |
+| Compare AI video models | “Compare available Seedance 2.5, Wan 3.0, Wan 2.2 and LTX 2.5 image-to-video options on RunComfy for a five-second clip. Show current prices; do not generate yet.” |
+| Generate or edit images | “Compare FLUX 2 and Seedream 5.0 AI image models for a product photo, inspect the selected schema, and prepare one image within my budget.” |
 | Prepare LoRA training | “Review my RunComfy dataset and AI Toolkit YAML for a short LoRA training run. Show the GPU choice and cost estimate before submitting.” |
 | Retrieve results | “Check this RunComfy request ID and give me its actual output links. Do not submit another request.” |
 
@@ -60,7 +60,9 @@ RunComfy charges your account for the operations you authorize. Model requests a
 Tool arguments, selected media or dataset inputs, and results are processed by RunComfy and returned to Gemini CLI. Use only material you are authorized to submit. This package contains connection configuration and plain-text guidance; it has no executable hooks, credential files, bundled server implementation or added telemetry code. Gemini CLI and RunComfy retain their respective data handling policies.
 
 - [RunComfy privacy policy](https://www.runcomfy.com/legal/privacy)
-- [RunComfy models and current options](https://www.runcomfy.com/models)
+- [AI image models and AI video models](https://www.runcomfy.com/models)
+- [ComfyUI workflows](https://www.runcomfy.com/comfyui-workflows)
+- [AI Toolkit LoRA training](https://www.runcomfy.com/trainer/ai-toolkit)
 - [RunComfy API documentation](https://docs.runcomfy.com/)
 - [LoRA training API](https://docs.runcomfy.com/trainer-apis/introduction)
 

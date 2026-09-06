@@ -1,7 +1,7 @@
 {
   "name": "runcomfy-gemini",
-  "version": "1.0.1",
-  "description": "Run ComfyUI workflows, explore AI image models and AI video models including Seedance 2.5, Wan 3, FLUX, LTX and Seedream, and train LoRAs on GPU.",
+  "version": "1.0.2",
+  "description": "ComfyUI workflows and GPU LoRA training in Gemini CLI. Explore AI image models FLUX 2 and Seedream 5.0, and AI video models Seedance 2.5, Wan 3.0, Wan 2.2 and LTX 2.5.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
     "runcomfy": {
