@@ -1,0 +1,11 @@
+{
+  "name": "runcomfy-gemini",
+  "version": "1.0.0",
+  "description": "Run ComfyUI workflows on GPU, generate images and video with Seedance, Wan, FLUX, LTX and Seedream, and manage LoRA training through RunComfy.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "runcomfy": {
+      "httpUrl": "https://mcp.runcomfy.com/mcp"
+    }
+  }
+}
