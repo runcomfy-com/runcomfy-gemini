@@ -1,11 +1,11 @@
 ---
 name: runcomfy-generation
-description: Find and run RunComfy image and video generation with Seedance, Wan, FLUX, LTX or Seedream. Use for model selection, current prices and schemas, text-to-image, image editing, text-to-video and image-to-video.
+description: Discover RunComfy AI image models and AI video models, including Seedance 2.5, Wan 3, Wan 2, FLUX, LTX and Seedream. Use for an AI image generator or AI video generator task, current prices, image editing, text-to-video and image-to-video.
 ---
 
 # Image and video generation on RunComfy
 
-Use `list_models` to find the requested model family and capability, then `get_model` for the exact model ID, current input schema and price. Search Seedance, Wan and LTX for relevant video tasks, and FLUX or Seedream for relevant image tasks. Availability and capabilities vary by variant; use the live catalog instead of hardcoded versions, prices or assumptions about family names.
+Use `list_models` to find the requested model family and capability, then `get_model` for the exact model ID, current input schema and price. Search Seedance 2.5, Wan 3, Wan 2 or LTX for relevant AI video models, and FLUX or Seedream for relevant AI image models. Resolve family names such as Wan 2 to the specific variant the user intends. Availability and capabilities vary by variant; use live results instead of hardcoded endpoint IDs, prices or assumptions about family names.
 
 Preserve an explicitly requested model. When comparing alternatives, explain the relevant input support, duration, resolution and pricing differences. Do not switch models or start generation during a comparison without authorization.
 

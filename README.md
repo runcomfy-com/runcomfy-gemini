@@ -1,8 +1,10 @@
 # RunComfy for Gemini CLI
 
-Run ComfyUI workflows on GPU, generate images and video with Seedance, Wan, FLUX, LTX and Seedream, and manage LoRA training from Gemini CLI.
+Run ComfyUI workflows on GPU, explore AI image models and AI video models, and manage LoRA training from Gemini CLI.
 
-This extension connects Gemini CLI to the hosted [RunComfy MCP service](https://docs.runcomfy.com/mcp/introduction). It includes three focused skills for workflow execution, model generation and LoRA training. Model availability, prices and input schemas are discovered from RunComfy when needed.
+Use RunComfy as an **AI image generator** and **AI video generator** in Gemini CLI. Discover Seedance 2.5, Wan 3 and Wan 2 variants, FLUX, LTX and Seedream through [RunComfy's model pages](https://www.runcomfy.com/models), then inspect the current variant, price and input schema before generation.
+
+This extension connects Gemini CLI to the hosted [RunComfy MCP service](https://docs.runcomfy.com/mcp/introduction). It includes three focused skills for ComfyUI workflow execution, AI image and video generation, and LoRA training. Availability and supported parameters are discovered from RunComfy when needed.
 
 ## Install
 
@@ -36,12 +38,12 @@ You need a RunComfy account. Paid workflow, model and training operations requir
 | --- | --- |
 | Inspect ComfyUI workflows | “Show the inputs and GPU settings for my RunComfy image workflow. Do not run it yet.” |
 | Run a workflow | “Prepare one image with my ComfyUI deployment. Show the input overrides and estimated cost before starting.” |
-| Compare video models | “Compare available Seedance, Wan and LTX image-to-video options on RunComfy for a five-second clip. Show current prices; do not generate yet.” |
-| Generate or edit images | “Find a FLUX or Seedream model for a product photo, inspect its schema, and prepare one image within my budget.” |
+| Compare AI video models | “Compare available Seedance 2.5, Wan 3, Wan 2 and LTX image-to-video options on RunComfy for a five-second clip. Show current prices; do not generate yet.” |
+| Generate or edit images | “Compare FLUX and Seedream AI image models for a product photo, inspect the selected schema, and prepare one image within my budget.” |
 | Prepare LoRA training | “Review my RunComfy dataset and AI Toolkit YAML for a short LoRA training run. Show the GPU choice and cost estimate before submitting.” |
 | Retrieve results | “Check this RunComfy request ID and give me its actual output links. Do not submit another request.” |
 
-The MCP service exposes deployment, inference, model-catalog, dataset, training and balance tools. Inspect the live tool list for current capabilities. The extension uses asynchronous jobs and preserves returned IDs for monitoring; it does not need a local ComfyUI installation or local GPU.
+The MCP service exposes deployment, inference, image and video model discovery, dataset, training and balance tools. Inspect the live tool list for current capabilities. The extension uses asynchronous jobs and preserves returned IDs for monitoring; it does not need a local ComfyUI installation or local GPU.
 
 ## Bundled skills
 
